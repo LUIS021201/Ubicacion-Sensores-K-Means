@@ -1,0 +1,56 @@
+# Archivos de compilación y ejecutables
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Directorio de entorno virtual (si usas uno)
+venv/
+env/
+ENV/
+
+# Archivo de configuración de PyCharm
+.idea/
+
+# Directorio de dependencias (si no usas un gestor de dependencias como Pipenv o Poetry)
+lib/
+libs/
+library/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# Archivo de historial de comandos del intérprete interactivo de Python
+.history/
+
+# Archivo de configuración de coverage.py
+.coverage
+
+# Archivos de caché de Sphinx
+_build/
+
+# Archivos de caché de Flake8
+.flake8
+
+# Archivos de caché de mypy
+.mypy_cache/
+
+# Directorio de caché de pytest
+.pytest_cache/
+
+# Directorio de caché de pycodestyle
+.pycodestyle_cache/
+
+# Archivos de registro de errores de Flake8
+.flake8.log
+
+# Archivos de registro de errores de mypy
+.mypy.log
+
+# Archivo de registro de errores de pip
+pip-log.txt
+
+# Directorio de dependencias de npm (si tu proyecto también usa JavaScript)
+node_modules/
+
